@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    max-width: 1320px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    height: 100px;
+    padding: 7px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1320px;
+    /* border: 2px solid black; */
+    margin:auto;
+    /* padding: 2px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-fluid{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    padding: 10px 0px ;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #00376E;
+    /* border: 1px solid green; */
+    /* margin-left: 49px; */
+    padding: 10px;
+}
+.nav1{
+    /* border: 1px solid green; */
+    padding: 5px 30px;
+    /* margin-right: 20px; */
+    margin-left: 145px;
+}
+.nav1 a{
+    padding: 5px 30px;
+    display: inline-block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.nav1 a:hover{
+    background-color: #4CB5AB;
+    color: white;
+}
+.nav1  a:last-child{
+    border-left: 1px dotted red ;  
+    margin-left: -5px;
+}
+.nav1  a:first-child{
+    background-color: #4CB5AB;
+}
+.shopbox1{
+    border: 2px solid black;
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* justify-content: space-evenly; */
+}
+.padding{
+    border: 1px solid green;
+}
+.shopsmall1{
+    border: 1px solid red;
+    width: 49%;
+    padding: 20px 50px;
+    background-color: #00376E;
+
+}
+.shopsmall1 h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: white;
+    line-height: 1;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+}
+.shopsmall1 span{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: white;
+}
+.shopsmall2{
+    border: 1px solid red;
+    width: 49%; 
+}
