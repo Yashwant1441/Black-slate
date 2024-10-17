@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 .header{
     max-width: 1320px;
@@ -59,8 +59,58 @@
     border-left: 1px dotted red ;  
     margin-left: -5px;
 }
-.nav1  a:nth-child(2){
+.nav1  a:nth-child(3){
     background-color: #4CB5AB;
+}
+.shopbox1{
+    /* border: 2px solid black; */
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* justify-content: space-evenly; */
+}
+.padding{
+    /* border: 1px solid green; */
+}
+.shopsmall1{
+    /* border: 1px solid red; */
+    width: 49%;
+    padding: 20px 50px;
+    background-color: #00376E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopsmall1 h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: white;
+    line-height: 1;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+}
+.shopsmall1 span{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: white;
+}
+.shopsmall2{
+    /* border: 1px solid red; */
+    width: 49%; 
+    /* background-color: red; */
+    /* background-image: url(../images/shop-coffee/coffee.jpg); */
+}
+.shopsmall2 img{
+    object-fit: cover;
+    width: 100%;
 }
 .shopbox1{
     /* border: 2px solid black; */
@@ -114,8 +164,6 @@
 }
 
 
-
-/* ----------------------section-2----------------------------- */
 .shopbox2{
     /* border: 2px solid black; */
     max-width: 1320px;
@@ -143,7 +191,8 @@ label{
     font-weight: bold;
 }
 
-/* -----------------------section-3--------------------------------- */
+
+
 .shopbox3{
     /* border: 2px solid black; */
     max-width: 1320px;
@@ -257,7 +306,8 @@ label{
     color: grey;
 }
 
-/* ---------------------------footer-------------------------------- */
+
+
 
 .pic{
     /* border: 2px solid black; */
@@ -445,4 +495,3 @@ label{
     letter-spacing: normal;
     text-align: center;
 }
-

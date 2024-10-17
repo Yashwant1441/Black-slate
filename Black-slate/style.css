@@ -830,156 +830,175 @@ span{
 
 
                     /* -------best seller-------- */
-.heading2{
-    /* border: 2px solid black; */
-    max-width: 1320px;
-    height: 60px;
-    margin: auto;
-    margin-top: 40px;
-    /* text-align: center; */
-    /* margin-bottom: 17px; */
-}
-.heading2 h2{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
-    color: #00376e;
-    line-height: 1.8;
-    letter-spacing: normal;
-    font-weight: normal;
-    margin-left: 20px;
-}
+
+
 .majorbox1{
-    /* border: 2px solid black; */
     max-width: 1320px;
     margin: auto;
-    /* margin-top: 30px; */
+    /* border: 2px solid black; */
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+.subbox{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
 }
 .subclass{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}   
-.class{
-    /* border: 1px solid red; */
-    width: 30%;
-    height: 420px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px 15px;
-} 
-.img3{
     /* border: 1px solid green; */
-    height: 300px;
-    width: 410px;
-    background-image: url(images/section-2/jar.jpg);
-    background-size: 400px 290px;
-    background-repeat: no-repeat;
-    position: relative;
-    /* display: flex; */
-}
-.display8{
-    /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
-    position: absolute;
-    top: 37px;
-    left: 37px;
+    padding: 5px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 0;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
-.display8:hover{
-    background-blend-mode: overlay;
-    background-color: #4cb5ab80;  
-    opacity: 1;
-}
-.minor{
-    /* border: 1px solid green; */
-    width: 350px;
-    height: 30px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-.minor1{
-    /* border: 1px solid green; */
-    width: 350px;
-    height: 25px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-.minor a{
-    font-size: 16px;
-    color: #00376E;
-    transition: 0.2s linear;
-    text-decoration: none;
-}
-.minor span{
-    font-size: 18px;
-    line-height: normal;
-    color: #00376E;
-}
-.display1{
-    /* border: 1px solid red; */
+.display0{
     width: 53px;
     height: 53px;
     border-radius: 100%;
     position: absolute;
     top: 100px;
-    left: 368px;
+    left: 345px;
     color: white;
     text-align: center;
     background-color: #5ebcb3;
     padding-top: 15px;
 }
-.img4{
-    /* border: 1px solid green; */
-    height: 300px;
-    width: 410px;
-    background-image: url(images/section-2/jar1.jpg);
-    background-size: 400px 290px;
-    background-repeat: no-repeat;
+.subclass h2{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: rgb(0, 55, 110);
+    line-height: 1.8;
+    letter-spacing: normal;
+} 
+.bx{
+    /* border: 1px solid blue; */
+    width: 33%;
+    text-align: center;
     position: relative;
-    /* display: flex; */
+    /* padding: 10px; */
 }
-.display8{
+.bx a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.bx a:hover{
+    color: #4CB5AB;
+}
+.bx img{
+    /* width: 90%; */
+}
+.line0{
+    border: 2px solid #4CB5AB;
+    width: 70px;
+    margin: auto;
+}
+.display20{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
+    height: 65%;
     position: absolute;
-    top: 37px;
-    left: 37px;
+    top: 19px;
+    left: 59px;
     display: flex;
     flex-direction: column;
     align-items: center;
     opacity: 0;
+     
 }
-.display8:hover{
+.smallmag{
+    color: white;
+} 
+.display20:hover{
     background-blend-mode: overlay;
     background-color: #4cb5ab80;  
     opacity: 1;
 }
-.img5{
-    /* border: 1px solid green; */
-    height: 300px;
-    width: 410px;
-    background-image: url(images/section-2/packet1.jpg);
-    background-size: 400px 290px;
-    background-repeat: no-repeat;
-    position: relative;
-    /* display: flex; */
+.insidehover{
+    border: 1px solid white;
+    /* width: 130px;
+    height: 35px; */
+    margin-top: 65px;
+    text-align: center;
+    /* padding-top: 3px; */
+    /* opacity: 0; */
 }
-.majorbox1 h2{
-    border: 2px solid #4CB5AB;
-    width: 50px;
-    /* background-color: #4CB5AB; */
+.line{
+    border: 1px solid white;
+    width: 100px;
     margin: auto;
-    margin-top: 10px;
 }
+.insidehover a{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0px;
+} 
+.insidehover a:hover{
+    background-color: white;
+    color: #4CB5AB;
+}
+.insidehover2{
+    /* border: 1px solid white; */
+    width: 130px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+} 
+.insidehover3{
+    border: 1px solid white;
+    width: 130px;
+} 
+
+
+
+/* ------------------------------jk-------------------------------- */
+
+/* .cellerpadding{
+    padding: 10px;
+}
+.text-center{
+    text-align: start;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    color: rgb(0, 55, 110);
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.container0{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1320px;
+    margin: auto;
+}
+.div0{
+    border: 1px solid blue;
+} */
+
 
 
                 /* ------pic section----- */
@@ -987,7 +1006,7 @@ span{
 .pic{
     /* border: 2px solid black; */
     width: 100%;
-    height: 260px;
+    /* height: 260px; */
     background-image: url(images/slider/stick.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -998,9 +1017,9 @@ span{
 }     
 .table{
     /* border: 2px solid red; */
-    width: 1000px;
+    /* width: 1000px; */
     margin: auto;
-    padding: 50px 0px ;
+    padding: 100px 0px ;
     text-align: center;
 } 
 .table h2{
@@ -1011,7 +1030,7 @@ span{
     color: white;
     /* line-height: 1.8; */
     letter-spacing: normal;
-    margin-bottom: 10px;
+    padding: 15px 0px;
 }   
 .table p{
     font-family: 'Noto Sans', sans-serif;
@@ -1021,49 +1040,53 @@ span{
     /* line-height: 1.8; */
     letter-spacing: normal;
     color: white;
-    margin-bottom: 10px;
+    padding: 15px 0px;
 }   
 .pic2{
-    width: 100%;
+    /* width: 100%; */
     background-color:#00376E ;
-    height: 400px;   
+    /* height: 400px;    */
 }  
 .pic3{
     /* border: 1px solid red; */
-    width: 1320px;
+    max-width: 1320px;
     padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
     /* margin-top: 20px; */
 }
 .table1{
     /* border: 1px solid orange; */
-    width: 285px;
-    margin: 0px 15px;
-    height: 200px;
+    width: 25%;
+    /* margin: 0px 15px; */
+    /* height: 200px; */
     text-align: left;
+    padding: 15px;
 }  
 .table2{
     /* border: 1px solid orange; */
-    width: 285px;
-    margin: 0px 15px;
-    height: 175px;
+    width: 25%;
+    /* margin: 0px 15px; */
+    /* height: 175px; */
+    padding: 15px;
 }  
 .table3{
     /* border: 1px solid orange; */
-    width: 285px;
-    margin: 0px 15px;
-    height: 200px;
+    width: 25%;
+    /* margin: 0px 15px; */
+    /* height: 200px; */
+    padding: 15px;
 }  
 .table4{
     /* border: 1px solid orange; */
-    width: 285px;
-    margin: 0px 15px;
-    height: 175px;
+    width: 25%;
+    /* margin: 0px 15px; */
+    /* height: 175px; */
+    padding: 15px;
 }  
-.table1 h5{
+.table1 h5 a{
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -1071,7 +1094,7 @@ span{
     color: #4CB5AB;
     line-height: 1.8;
     letter-spacing: normal;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .table1 a{
     font-family: 'Noto Sans', sans-serif;
@@ -1084,7 +1107,7 @@ span{
     color: #4CB5AB;
     text-decoration: none;
 }
-.table2 h5{
+.table2 h5 a{
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -1092,7 +1115,7 @@ span{
     color: #4CB5AB;
     line-height: 1.8;
     letter-spacing: normal;
-    margin-top: 30px;    
+    padding-top: 30px;    
 }
 .table2 a{
     font-family: 'Noto Sans', sans-serif;
@@ -1151,7 +1174,7 @@ span{
 }
 .pic3 h6{
     border: 1px solid white;
-    width: 1320px;
+    max-width: 1320px;
     margin: auto;
     margin-top: 40px;
 }
