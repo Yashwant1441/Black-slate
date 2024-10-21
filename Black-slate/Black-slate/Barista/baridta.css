@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    max-width: 1320px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    height: 100px;
+    padding: 7px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1320px;
+    /* border: 2px solid black; */
+    margin:auto;
+    /* padding: 2px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-fluid{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    padding: 10px 0px ;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #00376E;
+    /* border: 1px solid green; */
+    /* margin-left: 49px; */
+    padding: 10px;
+}
+.nav1{
+    /* border: 1px solid green; */
+    padding: 5px 30px;
+    /* margin-right: 20px; */
+    margin-left: 145px;
+}
+.nav1 a{
+    padding: 5px 30px;
+    display: inline-block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.nav1 a:hover{
+    background-color: #4CB5AB;
+    color: white;
+}
+.nav1  a:last-child{
+    border-left: 1px dotted red ;  
+    margin-left: -5px;
+}
+.nav1  a:first-child{
+    background-color: #4CB5AB;
+}
+
+
+
+
+
+.baristabox{
+    /* border: 2px solid black; */
+    max-width: 1320px;
+    margin: auto;
+}
+.baristamid{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+}
+.baristain1{
+    /* border: 1px solid blue; */
+    width: 30%;
+}
+.baristain2{
+    /* border: 1px solid blue; */
+    width: 40%;
+    background-color: #4CB5AB;
+    padding-top: 30px;
+}
+.baristain3{
+    /* border: 1px solid blue; */
+    width: 25%;
+    background-color: #00376E;
+    padding: 26px 0px;
+}
+.baristaininner1{
+    /* border: 1px solid orange; */
+    width: 100%;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.baristaininner2{
+    /* border: 1px solid orange; */
+    width: 100%;
+    display: flex;
+}
+.baristamicro{
+    /* border: 1px solid green; */
+    padding: 20px 0px;
+    position: relative;
+}
+.hover0{
+    /* border: 1px solid red; */
+    width: 90%;
+    padding: 36px 50px;
+    position: absolute;
+    top: 21px;
+    background-color: rgba(255, 255, 255, 0.345);
+}
+.hover0:hover{
+    background-color: transparent;
+}
+.baristainner1{
+    border-bottom: 1px solid RGBA(255, 255, 255, 0.21);
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+}
+.baristainner1 h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: none;
+    color: white;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+.baristamicro1{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+.ri-star-fill{
+    color: goldenrod;
+    font-size: 14px;
+}
+.grey{
+    color: #ffffff;
+}
+.baristamicro1 a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.line{
+    border-left: 2px solid white;
+    /* padding: 6px; */
+    display: inline-block;
+}
+.line a{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.baristainner2{
+    border-bottom: 1px solid RGBA(255, 255, 255, 0.21);
+    width: 100%;
+    padding: 30px;
+}
+.baristamicro2 p{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.baristamicro3{
+    display: flex;
+    padding-top: 10px
+}
+.div0{
+    padding: 0px 10px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.baristainner2 span{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.baristainner3{
+    border-bottom: 1px solid RGBA(255, 255, 255, 0.21);
+    padding: 0px 28px 30px 30px;
+}
+.baristainner3 span{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.baristainner4{
+    padding: 30px 28px 0px 28px;
+}
+.baristainner4 h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    color: white;
+    line-height: 1.8;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+}
+.input{
+    display: flex;
+    /* border: 1px solid white; */
+}
+.input1 input{
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    padding-right: 40px;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    background-color: transparent;
+}
+.ri-arrow-drop-up-line{
+    font-size: 14px;
+    font-weight: normal;
+    color: lightgrey;
+}
+.input2{
+    padding: 0px 10px;
+}
+.btn0{
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+    /* padding: 10px; */
+}
+.ri-arrow-drop-down-line{
+    font-size: 14px;
+    font-weight: normal;
+    color: lightgrey;
+}
+.span100{
+    /* border: 1px solid green; */
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.span0{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #00376E;
+}
