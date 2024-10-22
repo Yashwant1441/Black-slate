@@ -609,7 +609,7 @@
     position: relative;
 } 
 .display7{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
     height: 190px;
     position: absolute;
