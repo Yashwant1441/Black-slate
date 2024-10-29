@@ -19,6 +19,7 @@
     position: fixed;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 .container{
     width: 100%;
@@ -29,9 +30,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-@media{
-
 }
 .logo{
     font-size: 24px;
@@ -75,6 +73,14 @@
 .slider{
     display: flex;
     width: 300%;
+    position: relative;
+    animation-name: element;   
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    z-index: 0;
 }
 .images1{
     width: 100%;
@@ -84,7 +90,16 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+@keyframes element {
+     from{
+        margin-left: 0;
+     }
+     to{
+        margin-left: -200%;
+     }
+
 }
 .images1 h2{
     font-size: 48px;
@@ -332,37 +347,37 @@
 
 
 .mainbox3{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 .box3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .box4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .box5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .box6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .box7{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .box8{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 33.33%;
 }
 .heading2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     margin-top: 40px;
     margin-bottom: 17px;
@@ -383,7 +398,7 @@
     text-align: center;
 } 
 .display2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     position: absolute;
     top: 37px;
@@ -391,7 +406,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 1;
+    opacity: 0;
      
 }
 .smallmag{
@@ -419,14 +434,14 @@
 .insidehover a{
     color: white;
     font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
     line-height: 1.8;
     letter-spacing: normal;
     font-weight: normal;
     font-size: 12px;
     display: inline-block;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border-radius: 0px;
+    text-decoration: underline white;
 } 
 .insidehover a:hover{
     background-color: white;
@@ -434,36 +449,36 @@
 }
 .insidehover2{
     /* border: 1px solid white; */
-    width: 130px;
-    height: 30px;
+    /* width: 130px; */
+    /* height: 30px; */
     margin-bottom: 10px;
     text-align: center;
     padding-top: 5px;
     margin-top: 10px;
 } 
 .insidehover3{
-    border: 1px solid white;
-    width: 130px;
+    /* border-bottom: 1px solid white; */
+    /* width: 40%; */
+    margin-bottom: 30px;
 } 
 .mainbox4:hover{
     background-color: transparent;
 }
 .mainbox4-4{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     text-align: center;
     position: relative;
 } 
 .display3{
-        /* border: 1px solid red; */
-        width: 290px;
-        height: 190px;
-        position: absolute;
-        top: 37px;
-        left: 72px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
+    /* border: 1px solid red; */
+    width: 70%;
+    position: absolute;
+    top: 37px;
+    left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
          
     
 }
@@ -474,20 +489,15 @@
 }
 .mainbox4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/icetea.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display4{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -500,20 +510,15 @@
 }
 .mainbox4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/packet.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display5{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -526,20 +531,15 @@
 }
 .mainbox4-4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/jar1.jpg);
-    background-size: cover;
+     text-align: center;
     position: relative;
 } 
 .display6{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -552,20 +552,15 @@
 }
 .mainbox4-4-4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/packet1.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display7{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -620,8 +615,8 @@ span{
 }
 .mainbox3 h4{
     border: 2px solid #4CB5AB;
-    margin: 0px 640px;
-    width: 40px;
+    margin: auto;
+    width: 5%;
 }
 .span{
     font-size: 14px;
@@ -632,11 +627,14 @@ span{
 
                        /* ----coffee----      */
 
-.majorbox{
-    /* border: 2px solid black; */
+.fluid0{
     max-width: 1320px;
     margin: auto;
     margin-top: 30px;
+}
+.majorbox{
+    /* border: 2px solid black; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -703,7 +701,7 @@ span{
 }
 .minorbox1{
     /* border: 1px solid red; */
-    height: 180px;
+    /* height: 180px; */
     margin-bottom: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
