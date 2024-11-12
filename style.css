@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
     transition: all,0.5s;
-    /* flex-wrap: wrap; */
 }
 
 
@@ -12,44 +11,49 @@
 
 
 .header{
-    max-width: 1320px;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    height: 100px;
-    padding: 7px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 .container{
-    max-width: 1320px;
-    /* border: 2px solid black; */
-    margin:auto;
-    /* padding: 2px; */
-    display: flex;
-    flex-wrap: wrap;
+    /* width: 100%; */
+    /* border: 1px solid red; */
 }
 .container-fluid{
-    /* border: 1px solid red; */
-    /* width: 100%; */
-    padding: 10px 0px ;
-    margin: 10px auto;
+    max-width: 1320px;
+    margin: auto;
+    padding: 10px 10px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.menu{
+    opacity: 0;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+.menu > button{
+    border: none;
+}
+.fa-bars{
+    font-size:25px;
+    display: block;
+    border: none;
 }
 .logo{
     font-size: 24px;
     font-family: sans-serif;
     color: #00376E;
-    /* border: 1px solid green; */
-    /* margin-left: 49px; */
-    padding: 10px;
+    padding: 10px 70px;
+    /* border: 1px solid red; */
 }
 .nav1{
-    /* border: 1px solid green; */
     padding: 5px 30px;
-    /* margin-right: 20px; */
-    margin-left: 145px;
+    /* border: 1px solid red; */
 }
 .nav1 a{
     padding: 5px 30px;
@@ -75,17 +79,23 @@
                         /* slide-bar */
 
 .slidecontainer{
-    /* border: 1px solid black; */
+    width: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
+    margin-top: 100px;
+   
 }
 .slider{
     display: flex;
-    height: 550px; 
     width: 300%;
+    position: relative;
+    animation-name: element;   
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    z-index: 0;
 }
 .images1{
-    /* border: 1px solid red; */
     width: 100%;
     background-image: url(images/slider/stick.jpg);
     background-size: cover;
@@ -93,7 +103,28 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+@keyframes element {
+     0%{
+        margin-left: 0;
+     }
+     30%{
+        margin-left: 0%;
+     }
+     35%{
+        margin-left: -100%;
+     }
+     75%{
+        margin-left: -100%;
+     }
+     80%{
+        margin-left: -200%;
+     }
+     100%{
+        margin-left: -200%;
+     }
+
 }
 .images1 h2{
     font-size: 48px;
@@ -121,7 +152,6 @@
     color:#4CB5AB ;
 }
 .images2{
-    /* border: 1px solid red; */
     width: 100%;
     background-image: url(images/slider/green.jpg);
     background-size: cover;
@@ -158,7 +188,6 @@
     color:#4CB5AB ;
 }
 .images3{
-    /* border: 1px solid red; */
     width: 100%;
     background-image: url(images/slider/cup.jpg);
     background-size: cover;
@@ -174,8 +203,7 @@
 .box1 a{
     padding: 8px;
     border-radius: 50%;
-    /* border: 1px solid red; */
-    display: block;
+    display: inline-block;
     width: 5px;
     height: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -184,7 +212,6 @@
 }
 .box1 a:hover{
     background-color: rgba(225, 225, 225, .6);
-    color: #4CB5AB;
 }
 .inerbox{
     /* border: 1px solid red; */
@@ -228,10 +255,12 @@
                     /* -----crafting----- */
 
 
-
-.heading{
-    /* border: 2px solid black; */
+.heading0{
     max-width: 1320px;
+    margin: auto;
+}
+.heading{
+    width: 100%;
     height: 60px;
     margin: auto;
     margin-top: 30px;
@@ -251,14 +280,16 @@
     margin: auto;
 }    
 .underline{
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     width: 40px;
     margin: auto;
     margin-bottom: 40px;
 }
+.container{
+    width: 100%;
+}
 .mainbox{
-    /* border: 1px solid black; */
-    width: 1320px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -266,46 +297,24 @@
 }  
 .box2{
     /* border: 1px solid red; */
-    /* width: 30%; */
-    height: 200px;
+    width: 33%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }      
 .smallbox1{
-    /* border: 1px solid green; */
-    width: 135px;
-    height: 100px;
     align-self: center;
-    background-image: url(images/section-1/truck.png);
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
 }    
 .smallbox1-1{
-    /* border: 1px solid green; */
-    width: 135px;
-    height: 100px;
     align-self: center;
-    background-image: url(images/section-1/tea.png);
-     
 }    
 .smallbox1-1-1{
-    /* border: 1px solid green; */
-    width: 135px;
-    height: 100px;
     align-self: center;
-    background-image: url(images/section-1/medal.png);
-    background-repeat: no-repeat;
 }    
 .smallbox2{
     /* border: 1px solid green; */
-    width: 80%;
-    height: 75px;
+    text-align: center;
     align-self: center;
     padding: 20px 0px;
-    display: flex;
-    
 } 
 .smallbox2 h3{
     font-size: 24px;
@@ -327,14 +336,9 @@
 }
 .smallbox3{
     /* border: 1px solid green; */
-    width: 100%;
-    height: 25px;
 } 
 .mainbox2{
-    /* border: 1px solid black;
-    width: 200px;
-    height: 50px; */
-    margin-left: 565px;
+    width: 100%;
     text-align: center;
     margin-top: 40px;
 } 
@@ -359,52 +363,73 @@
 .fluid{
     background-color: #F4FAFA;
 }
+
+
+
+/* ---------------------allproducts------------------------------- */
+
+
+
+
 .mainbox3{
     /* border: 2px solid black; */
-    max-width: 1320px;
+    width: 100%;
     display: flex;
-    margin: auto;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-}
-.mainbox3 > div{
-    padding: 20px;
 }
 .box3{
     /* border: 1px solid red; */
     width: 33.33%;
-    /* margin-bottom: 100PX; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box4{
     /* border: 1px solid red; */
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box5{
     /* border: 1px solid red; */
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box6{
     /* border: 1px solid red; */
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box7{
     /* border: 1px solid red; */
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box8{
     /* border: 1px solid red; */
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .heading2{
     /* border: 2px solid black; */
-    max-width: 1320px;
-    height: 60px;
-    margin: auto;
+    width: 100%;
     margin-top: 40px;
-    /* text-align: center; */
     margin-bottom: 17px;
-    display: flex;
-    flex-wrap: wrap;
 }
      
 .heading2 h2{
@@ -414,24 +439,19 @@
     line-height: 1.8;
     letter-spacing: normal;
     font-weight: normal;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }   
 .mainbox4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px;  */
-    background-image: url(images/section-2/yellowcup.jpg);
-    background-size: cover;
     position: relative;
+    text-align: center;
 } 
 .display2{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -463,14 +483,14 @@
 .insidehover a{
     color: white;
     font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
     line-height: 1.8;
     letter-spacing: normal;
     font-weight: normal;
     font-size: 12px;
     display: inline-block;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border-radius: 0px;
+    text-decoration: underline white;
 } 
 .insidehover a:hover{
     background-color: white;
@@ -478,41 +498,36 @@
 }
 .insidehover2{
     /* border: 1px solid white; */
-    width: 130px;
-    height: 30px;
+    /* width: 130px; */
+    /* height: 30px; */
     margin-bottom: 10px;
     text-align: center;
     padding-top: 5px;
     margin-top: 10px;
 } 
 .insidehover3{
-    border: 1px solid white;
-    width: 130px;
+    /* border-bottom: 1px solid white; */
+    /* width: 40%; */
+    margin-bottom: 30px;
 } 
 .mainbox4:hover{
     background-color: transparent;
 }
 .mainbox4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/jar.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
-    display: flex;
 } 
 .display3{
-        /* border: 1px solid red; */
-        width: 320px;
-        height: 190px;
-        position: absolute;
-        top: 37px;
-        left: 37px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
+    /* border: 1px solid red; */
+    width: 70%;
+    position: absolute;
+    top: 37px;
+    left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
          
     
 }
@@ -523,20 +538,15 @@
 }
 .mainbox4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/icetea.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display4{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -549,20 +559,15 @@
 }
 .mainbox4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/packet.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display5{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -575,20 +580,15 @@
 }
 .mainbox4-4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/jar1.jpg);
-    background-size: cover;
+     text-align: center;
     position: relative;
 } 
 .display6{
     /* border: 1px solid red; */
-    width: 320px;
-    height: 190px;
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -601,20 +601,15 @@
 }
 .mainbox4-4-4-4-4-4{
     /* border: 1px solid green; */
-    width: 400px;
-    height: 250px;
-    /* margin-left: 30px; */
-    background-image: url(images/section-2/packet1.jpg);
-    background-size: cover;
+    text-align: center;
     position: relative;
 } 
 .display7{
-    border: 1px solid red;
-    width: 320px;
-    height: 190px;
+    /* border: 1px solid red; */
+    width: 70%;
     position: absolute;
     top: 37px;
-    left: 37px;
+    left: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -661,7 +656,7 @@ span{
     border-radius: 100%;
     position: absolute;
     top: 100px;
-    left: 368px;
+    left: 310px;
     color: white;
     text-align: center;
     background-color: #5ebcb3;
@@ -669,8 +664,8 @@ span{
 }
 .mainbox3 h4{
     border: 2px solid #4CB5AB;
-    margin: 0px 640px;
-    width: 40px;
+    margin: auto;
+    width: 5%;
 }
 .span{
     font-size: 14px;
@@ -681,11 +676,14 @@ span{
 
                        /* ----coffee----      */
 
-.majorbox{
-    /* border: 2px solid black; */
+.fluid0{
     max-width: 1320px;
     margin: auto;
     margin-top: 30px;
+}
+.majorbox{
+    /* border: 2px solid black; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -752,17 +750,17 @@ span{
 }
 .minorbox1{
     /* border: 1px solid red; */
-    height: 180px;
+    /* height: 180px; */
     margin-bottom: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
-    width: 550px;
+    /* width: 550px; */
     padding: 35px;
     background-color: white;
 }
 .img{
     border: 1px solid gray;
-    width: 100px;
+    width: 140px;
     height: 100px;
     /* margin-left: 30px;
     margin-top: 23px; */
@@ -776,8 +774,8 @@ span{
 }
 .coffee{
     /* border: 1px solid black; */
-    width: 370px;
-    height: 150px;
+    /* width: 370px; */
+    /* height: 150px; */
     /* margin-top: 23px; */
 }
 .coffee h3{
@@ -815,7 +813,7 @@ span{
 }
 .img2{
     border: 1px solid gray;
-    width: 100px;
+    width: 140px;
     height: 100px;
     /* margin-left: 30px;
     margin-top: 23px; */
@@ -852,7 +850,7 @@ span{
     padding: 5px;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .display0{
     width: 53px;
@@ -1054,6 +1052,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* align-content: center; */
     margin: auto;
     /* margin-top: 20px; */
 }
@@ -1064,6 +1063,8 @@ span{
     /* height: 200px; */
     text-align: left;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }  
 .table2{
     /* border: 1px solid orange; */
@@ -1071,6 +1072,8 @@ span{
     /* margin: 0px 15px; */
     /* height: 175px; */
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }  
 .table3{
     /* border: 1px solid orange; */
@@ -1078,6 +1081,8 @@ span{
     /* margin: 0px 15px; */
     /* height: 200px; */
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }  
 .table4{
     /* border: 1px solid orange; */
@@ -1085,6 +1090,8 @@ span{
     /* margin: 0px 15px; */
     /* height: 175px; */
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }  
 .table1 h5 a{
     font-family: 'Noto Sans', sans-serif;
@@ -1172,10 +1179,15 @@ span{
     letter-spacing: normal;
     margin-top: 30px;    
 }
-.pic3 h6{
+/* .pic3 h6{
     border: 1px solid white;
     max-width: 1320px;
     margin: auto;
+    margin-top: 40px;
+} */
+.tri{
+    border-bottom: 2px solid white;
+    width: 100%;
     margin-top: 40px;
 }
 .p{

@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
+
+
+
 .header{
     max-width: 1320px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
@@ -59,70 +62,43 @@
     border-left: 1px dotted red ;  
     margin-left: -5px;
 }
-.nav1  a:nth-child(2){
+.nav1  a:nth-child(5){
     background-color: #4CB5AB;
 }
-.shopbox1{
+
+
+
+
+
+
+
+.tearmbox{
     /* border: 2px solid black; */
     max-width: 1320px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    /* justify-content: space-evenly; */
+    padding: 20px;
 }
-.padding{
-    /* border: 1px solid green; */
-}
-.shopsmall1{
+.innertearm{
     /* border: 1px solid red; */
-    width: 49%;
-    padding: 20px 50px;
-    background-color: #00376E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    padding: 5px;
 }
-.shopsmall1 h1{
+.microtearm{
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+.microtearm h3{
+    text-align: left;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: normal;
     text-transform: none;
-    color: white;
-    line-height: 1;
-    letter-spacing: normal;
-    margin-bottom: 15px;
-}
-.shopsmall1 span{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: none;
+    color: #00376E;
     line-height: 1.8;
     letter-spacing: normal;
-    color: white;
 }
-.shopsmall2{
-    /* border: 1px solid red; */
-    width: 49%; 
-    /* background-color: red; */
-    /* background-image: url(../images/shop-coffee/coffee.jpg); */
-}
-.shopsmall2 img{
-    object-fit: cover;
-    width: 100%;
-}
-
-
-
-/* ----------------------section-2----------------------------- */
-.shopbox2{
-    /* border: 2px solid black; */
-    max-width: 1320px;
-    margin: 40px auto;
-    text-align: end;
-}
-select{
+.microtearm p{
+    text-align: left;
     color: #5981A9;
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
@@ -130,134 +106,11 @@ select{
     text-transform: none;
     line-height: 1.8;
     letter-spacing: normal;
-    padding: 10px;
-}
-label{
-    color: #5981A9;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: none;
-    line-height: 1.8;
-    letter-spacing: normal;
-    font-weight: bold;
 }
 
-/* -----------------------section-3--------------------------------- */
-.shopbox3{
-    /* border: 2px solid black; */
-    max-width: 1320px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-.shopsmall3{
-    /* border: 1px solid red; */
-    width: 32%;
-}
-.shopsmall4{
-    /* border: 1px solid green; */
-    position: relative;
-}
-.smallline{
-    border: 1px solid white;
-    width: 100px;
-    margin-top: 15px;
-}
-.smallline1{
-    border: 1px solid white;
-    margin-bottom: 5px;
-    width: 100px;
-    margin: auto;
-}
-.white{
-    color: white;
-    font-size:15px;
-}
-.internal{
-    border: 1px solid white;
-    width: 150px;
-    text-align: center;
-    padding: 10px;
-}
-.internal:hover.a{
-    background-color: white;
-    color: #4CB5AB;
-}
-.shopdisplay{
-    /* border: 1px solid red; */
-    width: 90% ;
-    height: 250px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: hwb(174 30% 29% / 0.449);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-}
-.shopdisplay:hover{
-    opacity: 1;
-}
-.shopdisplay a{
-    text-decoration: none;
-    display: inline-block;
-    /* padding: 10px; */
-    background-color: transparent;
-    margin-bottom: 10px;
-    color: white;
-    /* border: 1px solid white; */
-}
-.shopdisplay a:hover{
-    background-color: white;
-    color: #4CB5AB;
-}
-.shopsmall4 img{
-    object-fit: cover;
-    width: 100%;
-}
-.shopsmall5{
-    /* border: 1px solid green; */
-    /* height: 30px; */
-    text-align: center;
-    margin-bottom: 15px;
-}
-.shopsmall5 a{
-    font-size: 16px;
-    color: #00376E;
-    transition: 0.2s linear;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: normal;
-    text-transform: none;
-    line-height: 1.8;
-    letter-spacing: normal;
-    text-decoration: none;
-}
-.shopsmall6{
-    text-align: center;
-    /* border: 1px solid green; */
-    margin-bottom: 15px;
-}
-.shopsmall6 span{
-    font-size: 18px;
-    line-height: normal;
-    color: #00376E;
-}
-.shopsmall7{
-    text-align: center;
-}
-.fa-star{
-    color: goldenrod;
-    font-size: 14px;
-    font-weight: normal;
-}
-.grey{
-    color: grey;
-}
 
-/* ---------------------------footer-------------------------------- */
+
+
 
 .pic{
     /* border: 2px solid black; */
@@ -445,4 +298,3 @@ label{
     letter-spacing: normal;
     text-align: center;
 }
-
