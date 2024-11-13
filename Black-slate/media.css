@@ -20,8 +20,9 @@
         width: 100%;
         padding: 50px 20px;
     }
-    .heading2{
-        padding: 0px 80px;
+    .heading2 h2{
+        padding: 40px 20px;
+        font-size: 20px;
     }
     .bx{
         width: 100%;
@@ -34,7 +35,21 @@
         width: 100%;
         align-items: center;
     }
-
+    .mainbox2 a{
+        padding: 10px 120px;
+    }
+    .slider{
+        width: 300%;
+    }
+    .images1{
+        width: 100%;
+    }
+    .images2{
+        width: 100%;
+    }
+    .images3{
+        width: 100%;
+    }
 }
 
 @media (max-width:1250px){
@@ -58,6 +73,6 @@
         width: 100%;
     }
     .heading2{
-        padding: 0px 130px;
+        /* padding: 0px 130px; */
     }
 }
