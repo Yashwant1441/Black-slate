@@ -2,7 +2,6 @@
     .nav1{
     display: none;
     }
-
     .menu{
         opacity: 1;
     }
@@ -11,6 +10,9 @@
     }
     .media1{
         width: 50%;
+    }
+    .slider{
+        height: 50vh;
     }
     .div1{
         width: 100%;
@@ -74,5 +76,14 @@
     }
     .heading2{
         /* padding: 0px 130px; */
+    }
+}
+
+@media (max-width:410px){
+    .minorbox h5{
+        margin-bottom: 20px;
+    }
+    .slider{
+        /* height: 40vh; */
     }
 }

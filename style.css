@@ -87,7 +87,7 @@
 }
 .slider{
     display: flex;
-    height: 100vh;
+    /* height: 100px; */
     /* flex-wrap: wrap; */
     width: 300%;
     /* position: relative; */
@@ -146,7 +146,7 @@
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    width: 190px;
+    /* width: 190px; */
     padding: 12px 45px;
 }
 .images1 a:hover{
@@ -158,7 +158,7 @@
     background-image: url(images/slider/green.jpg);
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    width: 200px;
+    /* width: 200px; */
     padding: 12px 45px;
 }
 .images2 a:hover{
