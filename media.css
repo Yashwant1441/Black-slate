@@ -68,6 +68,39 @@
     .logo{
         padding: 10px 10px;
     }
+    .images1 h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .images1 a{
+        font-size: 9px;
+        padding: 8px 24px;
+    }
+    .images2 a{
+        font-size: 9px;
+        padding: 8px 24px;
+    }
+    .images2 h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .images1 p{
+        font-size: 10px;
+    }
+    .images2 p{
+        font-size: 10px;
+    }
+    .images1 {
+        width: 100%;
+        height: 340px;
+    }
+    .images2 {
+        width: 100%;
+        height: 340px;
+    }
+    .display0 {
+        left: 300px;
+    }
 }
 
 @media (max-width:680px){

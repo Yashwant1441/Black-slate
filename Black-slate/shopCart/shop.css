@@ -175,7 +175,7 @@ label{
     font-size:15px;
 }
 .internal{
-    /* border: 1px solid white; */
+    border: 1px solid white;
     width: 150px;
     text-align: center;
     padding: 10px;
@@ -204,11 +204,11 @@ label{
 .shopdisplay a{
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: transparent;
     margin-bottom: 10px;
     color: white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .shopdisplay a:hover{
     background-color: white;
