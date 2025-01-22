@@ -52,6 +52,12 @@
     .images3{
         width: 100%;
     }
+    .h2{
+        font-size: 36px;
+    }
+    .holder{
+        left: 200px;
+    }
 }
 
 @media (max-width:1250px){
@@ -103,6 +109,16 @@
     }
 }
 
+@media (max-width:767px){
+    .h2{
+        font-size: 24px;
+    }
+    .holder{
+        left: 50px;
+        top: 150px;
+    }
+}
+
 @media (max-width:680px){
     .media1{
         width: 100%;
@@ -112,11 +128,34 @@
     }
 }
 
+@media (max-width:567px) {
+    .h2{
+        font-size: 16px;
+    }
+    .p2{
+        font-size: 12px;
+    }
+    .holder{
+        left: 50px;
+        top: 130px;
+    }
+}
+
 @media (max-width:410px){
     .minorbox h5{
         margin-bottom: 20px;
     }
     .slider{
         /* height: 40vh; */
+    }
+    .h2{
+        font-size: 16px;
+    }
+    .p2{
+        font-size: 12px;
+    }
+    .holder{
+        left: 40px;
+        top: 100px;
     }
 }
